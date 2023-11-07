@@ -65,15 +65,13 @@ h1{
 .back-1 .box-main-1{
     height: 80%;
     width: 50%;
-    background-color: blueviolet;
-    border-style: dashed;
+    position: relative;
 
 }
 
 .box-main-1 div{
     width: 100%;
-    border-style: dashed;
-    background-color: brown;
+
 }
 
 .box-main-1 div:first-of-type, .box-main-1 div:nth-of-type(4){
@@ -83,11 +81,22 @@ h1{
     height: 15%;
 }
 
+.box-main-1 div:first-of-type{
+    margin-bottom: 15px;
+}
+
+.box-main-1 div:nth-of-type(4){
+    font-size: 50px;
+}
+
+#freccia{
+    position: absolute;
+    bottom: 0;
+}
+
 .box-main-2{
     height: 90%;
     width: 50%;
-    background-color: blueviolet;
-    border-style: dashed;
 }
 
 .back-1 div img{
