@@ -10,30 +10,88 @@
     flex-wrap: wrap;
 }
 
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+.font{
+    font-size: 20px;
+}
+
+.button-blu{
+    padding: 8px;
+    color: aliceblue;
+    background-color: blue;
+}
+
 /* header */
 
 header{
     width: 100%;
     height: 100px;
-    border-style: dashed;
     justify-content: space-between;
-}
-
-.box-header{
-    height: 100%;
-    min-width: 25%;
-    max-width: 35%;
-    background-color: blueviolet;
 }
 
 .box-header p{
     height: 100%;
-    width: calc(100% / 4);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.box-header p span{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* main */
+/* div-1 */
+
+.back-1{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(148, 190, 226);
+    padding-top: 150px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.back-1 .box-main-1{
+    height: 80%;
+    width: 50%;
+    background-color: blueviolet;
+    border-style: dashed;
+
+}
+
+.box-main-1 div{
+    width: 100%;
     border-style: dashed;
     background-color: brown;
+}
+
+.box-main-1 div:first-of-type, .box-main-1 div:nth-of-type(4){
+    height: 35%;
+}
+.box-main-1 div:nth-of-type(3), .box-main-1 div:nth-of-type(2){
+    height: 15%;
+}
+
+.box-main-2{
+    height: 90%;
+    width: 50%;
+    background-color: blueviolet;
+    border-style: dashed;
+}
+
+.back-1 div img{
+    height: 100%;
 }
 
 
