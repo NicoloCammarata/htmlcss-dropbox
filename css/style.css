@@ -1,0 +1,39 @@
+/* Generali */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* header */
+
+header{
+    width: 100%;
+    height: 100px;
+    border-style: dashed;
+    justify-content: space-between;
+}
+
+.box-header{
+    height: 100%;
+    min-width: 25%;
+    max-width: 35%;
+    background-color: blueviolet;
+}
+
+.box-header p{
+    height: 100%;
+    width: calc(100% / 4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: dashed;
+    background-color: brown;
+}
+
+
